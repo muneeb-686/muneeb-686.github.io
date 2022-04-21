@@ -1,0 +1,46 @@
+
+div{
+    background-color: rgb(150, 141, 141);
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+   
+    border: 2px;
+    border-radius: 15px;
+}
+body{
+    background-image: url("img.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+::placeholder{
+    color: rgb(95, 84, 84);
+    font-size: 14px;
+}
+
+.iput-box{
+    width: 50%;
+    background: white;
+    border: 1px solid #fff;
+    margin: 6px 0;
+    height: 35px;
+    border-radius: 5px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color: rgb(5, 5, 5)
+    ;
+}
+.submit-btn{
+    position: relative;
+    width: 50%;
+    height: 35px;
+    border-radius: 8px;
+    font-size: 15px;
+    font: bold;
+    background-color: rgb(55, 55, 63);
+    color: white;
+}
